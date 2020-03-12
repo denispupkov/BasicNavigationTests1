@@ -23,9 +23,9 @@ public class TitleVerification3 {
                 String url = driver.getCurrentUrl().toLowerCase();
                 String title = driver.getTitle().toLowerCase().replace(" ", "");
                 if (url.contains(title)) {
-                    System.out.println("Test Passed for Website: "+url);
+                    System.out.println("Test Passed for the Website: "+url);
                 } else {
-                    System.out.println("Test Failed for Website: "+url);
+                    System.out.println("Test Failed for the Website: "+url);
                 }
 
                 Thread.sleep(5000);
